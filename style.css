@@ -24,10 +24,15 @@ main {
 
   padding: 5.6rem 4rem;
   box-sizing: content-box;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
 }
 
 img {
   width: 100%;
+  margin-block: 3.2rem;
 }
 
 button {
@@ -41,7 +46,7 @@ button {
 
   border-radius: 0.6rem;
 
-  margin-top: 1.8rem;
+  margin-top: 3.2rem;
 }
 
 h1,
@@ -55,4 +60,13 @@ li,
 strong {
   font-size: 1.4rem;
   line-height: 1.8rem;
+}
+
+ul,
+ol {
+  padding-left: 2.4rem;
+}
+
+ul {
+  margin-bottom: 2.4rem;
 }
